@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "teknologis",
+  "info": {
+    "singularName": "teknologi",
+    "pluralName": "teknologis",
+    "displayName": "Teknologi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Stycke1": {
+      "type": "richtext"
+    },
+    "bild": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Stycke2": {
+      "type": "string"
+    }
+  }
+}
